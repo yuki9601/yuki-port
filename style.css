@@ -141,7 +141,10 @@ h1 , h2 , p {
 /*モバイル版*/
 @media(max-width: 897px){
     .item {
+        margin-top: 0;
         margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 65px;
     }
 }
 

@@ -74,24 +74,9 @@ h1 , h2 , p {
 
 /*モバイル版*/
 @media(max-width: 600px){
-    .title {
-        font-size: 16px;
-    }
-    .main h1 {
-        font-size: 15px;
-    }
-
-    .main p {
-        font-size: 8px;
-    }
-
-    .nav li{
-        font-size: 14px;
-    }
     .nav-works {
         margin-right: 20px;
     }
-
 }
 
 /*実績*/
@@ -255,7 +240,6 @@ h1 , h2 , p {
     .allprof img {
         width: 100%;
         height: auto;
-
     }
 }
 

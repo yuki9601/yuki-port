@@ -145,13 +145,6 @@ h1 , h2 , p {
     }
 }
 
-/*モバイル版*/
-@media(max-width: 706px){
-    .item {
-        margin-right: 0;
-    }
-}
-
 /*フッター*/
 .footer {
     font-family: transat, sans-serif;

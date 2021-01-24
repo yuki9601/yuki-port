@@ -138,6 +138,12 @@ h1 , h2 , p {
     object-fit: cover;
 }
 
+/*モバイル版*/
+@media(max-width: 480px){
+    .item {
+        margin-right: auto;
+}
+
 /*フッター*/
 .footer {
     font-family: transat, sans-serif;

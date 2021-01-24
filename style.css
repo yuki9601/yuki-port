@@ -139,7 +139,7 @@ h1 , h2 , p {
 }
 
 /*モバイル版*/
-@media(min-width: 300px){
+@media(max-width: 300px){
     .item {
         margin-right: auto;
     }

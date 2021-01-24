@@ -1,0 +1,277 @@
+/* @charset "UTF-8*" */
+
+/*基本*/
+body {
+    font-family: Prestige Elite Std, Heisei Kaku Gothic Std, Noto Sans CJK JP ,
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*　リセット/ノーマライズ/サニタイズ */
+body , h1 ,h2 , h3 , h4 ,h5 ,h6 ,p, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+h1 , h2 , p {
+    letter-spacing: 0.08em;
+} 
+
+.sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+/*ヘッダー*/
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 89px;
+}
+
+.title {
+    font-family: Heisei Kaku Gothic , prestige-elite-std, monospace;;
+    display: flex;
+    font-size: 20px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    font-family: transat, sans-serif;
+    font-size: 16px;
+}
+
+.nav-works {
+    margin-right: 45px;
+}
+
+
+/*モバイル版*/
+@media(max-width: 600px){
+    .title {
+        font-size: 16px;
+    }
+    .main h1 {
+        font-size: 15px;
+    }
+
+    .main p {
+        font-size: 8px;
+    }
+
+    .nav li{
+        font-size: 14px;
+    }
+    .nav-works {
+        margin-right: 20px;
+    }
+
+}
+
+/*実績*/
+
+.main .container{
+    display: block;
+    text-align: center;
+
+
+}
+.main h1 {
+    font-weight: normal;
+    font-size: 27px;
+    margin-bottom: 22px;
+}
+
+.main p{
+    font-family: transat, sans-serif;
+    margin-bottom: 65px;
+}
+
+.workslist img {
+    margin-right: 40px;
+}
+.workslist {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+    cursor: pointer;
+}
+
+.main ul{
+    display: flex;
+    list-style: none;
+    font-family: transat, sans-serif;
+}
+
+.main li {
+    margin-right: 40px;
+}
+
+/*ワークリスト*/
+.itemlist {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 980px;
+    justify-content: center;
+}
+
+
+.item {
+    margin-right: 50px;
+    margin-bottom: 65px;
+}
+
+.item img {
+    width: 275px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/*フッター*/
+.footer {
+    font-family: transat, sans-serif;
+    background-color: #F3EBB2;
+    padding: 0 0 ;
+
+}
+
+.info {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.footer h2 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 12px;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+
+.footer p {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.sns {
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: center;
+    
+}
+.sns li  {
+    list-style: none;
+    margin-right: 23px;
+    
+}
+
+
+/*プロフィール*/
+.mainprof h1 {
+    font-weight: normal;
+    font-size: 27px;
+    margin-bottom: 22px;
+}
+
+.mainprof p{
+    font-family: transat, sans-serif;
+
+}
+
+.mainprof-title {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+
+.allprof {
+    display: flex;
+    margin-bottom: 75px;
+
+}
+
+.prof {
+    text-align: left;
+    margin-left: 101px;
+    line-height: 2;
+}
+
+.prof img {
+    height:auto;
+}
+.name {
+    font-size: 25px;
+
+}
+
+.sub .self {
+    font-size: 14px;
+}
+
+.sub {
+    margin-bottom: 40px;
+}
+
+@media(max-width: 907px){
+    .allprof {
+        display: block;
+    }
+
+    .prof {
+        margin-left: auto;
+        margin-top: 30px;
+    }
+
+}
+
+@media(max-width:480px){
+    .allprof img {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+/*個別ページ*/
+
+.mainport-title h1 {
+    font-weight: normal;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.port {
+    margin-bottom: 65px;
+}
+.allport p {
+    margin-bottom: 65px;
+    
+}
